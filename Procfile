@@ -1,19 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
+
 web: gunicorn app:app
-=======
 web: gunicorn app:app
->>>>>>> db5166d083e57d9cff6cad4f9277596e8fdc09f1
-=======
-<<<<<<< HEAD
->>>>>>> meu_branch_backup
 web: gunicorn app:app
-=======
 web: gunicorn app:app
->>>>>>> db5166d083e57d9cff6cad4f9277596e8fdc09f1
-<<<<<<< HEAD
-=======
->>>>>>> 35e54a3 (Primeiro commit do projeto)
->>>>>>> meu_branch_backup
+web: gunicorn app:app
+main
