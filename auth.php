@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bdb7a67 (Adiciona Laravel sem repositório interno)
 <?php
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
@@ -41,6 +44,7 @@ function getProfessorIdByUserId($pdo, $userId) {
     return $stmt->fetchColumn();
 }
 ?>
+<<<<<<< HEAD
 =======
 <?php
 if (session_status() == PHP_SESSION_NONE) {
@@ -85,3 +89,5 @@ function getProfessorIdByUserId($pdo, $userId) {
 }
 ?>
 >>>>>>> meu_branch_backup
+=======
+>>>>>>> bdb7a67 (Adiciona Laravel sem repositório interno)

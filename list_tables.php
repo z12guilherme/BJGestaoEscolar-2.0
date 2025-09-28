@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bdb7a67 (Adiciona Laravel sem repositório interno)
 <?php
 require_once 'config.php';
 require_once 'db.php';
@@ -31,6 +34,7 @@ try {
     echo "Error: " . $e->getMessage();
 }
 ?>
+<<<<<<< HEAD
 =======
 <?php
 require_once 'config.php';
@@ -65,3 +69,5 @@ try {
 }
 ?>
 >>>>>>> meu_branch_backup
+=======
+>>>>>>> bdb7a67 (Adiciona Laravel sem repositório interno)

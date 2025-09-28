@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bdb7a67 (Adiciona Laravel sem repositório interno)
 <?php
 header('Content-Type: application/json');
 require_once __DIR__ . '/../db.php';
@@ -16,6 +19,7 @@ if ($escola_id > 0) {
     echo json_encode([]);
 }
 ?>
+<<<<<<< HEAD
 =======
 <?php
 header('Content-Type: application/json');
@@ -35,3 +39,5 @@ if ($escola_id > 0) {
 }
 ?>
 >>>>>>> meu_branch_backup
+=======
+>>>>>>> bdb7a67 (Adiciona Laravel sem repositório interno)

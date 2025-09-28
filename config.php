@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bdb7a67 (Adiciona Laravel sem repositório interno)
 <?php
 // Configurações do banco de dados MySQL
 define('DB_HOST', '127.0.0.1:3307');
@@ -18,6 +21,7 @@ define('SITE_NAME', 'Sistema de Gestão Escolar');
 define('ADMIN_USERNAME', 'admin');
 define('ADMIN_PASSWORD', 'admin123');
 ?>
+<<<<<<< HEAD
 =======
 <?php
 // Configurações do banco de dados MySQL
@@ -39,3 +43,5 @@ define('ADMIN_USERNAME', 'admin');
 define('ADMIN_PASSWORD', 'admin123');
 ?>
 >>>>>>> meu_branch_backup
+=======
+>>>>>>> bdb7a67 (Adiciona Laravel sem repositório interno)

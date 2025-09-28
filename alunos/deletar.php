@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bdb7a67 (Adiciona Laravel sem repositório interno)
 <?php
 session_start();
 require_once '../db.php';
@@ -28,6 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 header('Location: listar.php');
 exit;
 ?>
+<<<<<<< HEAD
 =======
 <?php
 session_start();
@@ -59,3 +63,5 @@ header('Location: listar.php');
 exit;
 ?>
 >>>>>>> meu_branch_backup
+=======
+>>>>>>> bdb7a67 (Adiciona Laravel sem repositório interno)

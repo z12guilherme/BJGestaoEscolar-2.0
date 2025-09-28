@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bdb7a67 (Adiciona Laravel sem repositório interno)
 <?php
 session_start();
 require_once __DIR__ . '/../auth.php';
@@ -180,6 +183,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </script>
 </body>
 </html>
+<<<<<<< HEAD
 =======
 <?php
 session_start();
@@ -363,3 +367,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </body>
 </html>
 >>>>>>> meu_branch_backup
+=======
+>>>>>>> bdb7a67 (Adiciona Laravel sem repositório interno)

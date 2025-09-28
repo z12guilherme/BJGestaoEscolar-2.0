@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bdb7a67 (Adiciona Laravel sem repositório interno)
 <?php
 require_once 'config.php';
 
@@ -208,6 +211,7 @@ function initDatabase() {
         $pdo->exec("INSERT INTO escolas (nome) VALUES ('Escola Exemplo')");
     }
 }
+<<<<<<< HEAD
 =======
 <?php
 require_once 'config.php';
@@ -352,3 +356,5 @@ function initDatabase() {
     }
 }
 >>>>>>> meu_branch_backup
+=======
+>>>>>>> bdb7a67 (Adiciona Laravel sem repositório interno)
