@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+# TODO List for Sistema de Login Web
+
 - [x] Create Root user in database via Python shell
 - [x] Add @root_required decorator in app.py
 - [x] Add reset_password route in app.py
@@ -11,9 +12,6 @@
 - [x] Commit and push changes
 - [x] Remove self-registration feature
 - [x] Restrict user creation to Root only
-=======
-# TODO List for Sistema de Login Web
-
 - [x] Create README.md with setup and run instructions
 - [x] Create requirements.txt with dependencies
 - [x] Create models.py for User model
