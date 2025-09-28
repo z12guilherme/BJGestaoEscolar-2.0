@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 Flask==2.3.3
 Flask-SQLAlchemy==3.0.5
 Werkzeug==2.3.7
@@ -6,3 +9,17 @@ gunicorn==21.2.0
 psycopg2-binary
 
 
+=======
+>>>>>>> meu_branch_backup
+Flask==2.3.3
+Flask-SQLAlchemy==3.0.5
+Werkzeug==2.3.7
+psycopg2-binary>=2.9.8
+gunicorn==21.2.0
+psycopg2-binary
+
+
+<<<<<<< HEAD
+=======
+>>>>>>> 35e54a3 (Primeiro commit do projeto)
+>>>>>>> meu_branch_backup

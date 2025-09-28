@@ -1,5 +1,69 @@
-# TODO List for Sistema de Login Web
+# TODO: Migrar Projeto para Laravel
 
+## Passo 1: Configurar Laravel
+- [x] Instalar dependências no laravel_temp: cd laravel_temp && php ../composer.phar install
+- [x] Configurar .env com DB settings (MySQL, host 127.0.0.1:3307, db gestao_escolar, user root, pass '')
+- [x] Gerar key: php artisan key:generate
+
+## Passo 2: Migrações do Banco
+- [x] Criar migration para usuarios: php artisan make:migration create_usuarios_table
+- [x] Criar migration para escolas: php artisan make:migration create_escolas_table
+- [x] Criar migration para professores: php artisan make:migration create_professores_table
+- [x] Criar migration para tutores: php artisan make:migration create_tutores_table
+- [x] Criar migration para diretores: php artisan make:migration create_diretores_table
+- [x] Criar migration para responsaveis: php artisan make:migration create_responsaveis_table
+- [x] Criar migration para turmas: php artisan make:migration create_turmas_table
+- [x] Criar migration para alunos: php artisan make:migration create_alunos_table
+- [x] Criar migration para laudos: php artisan make:migration create_laudos_table
+- [x] Criar migration para notas: php artisan make:migration create_notas_table
+- [x] Criar migration para professor_turma: php artisan make:migration create_professor_turma_table
+- [x] Adicionar colunas extras via migrations separadas (email, escola_id, etc.)
+- [x] Executar migrations: php artisan migrate
+
+## Passo 3: Modelos Eloquent
+- [x] Criar modelos: User, Escola, Professor, Tutor, Diretor, Responsavel, Turma, Aluno, Laudo, Nota
+- [x] Definir relacionamentos em cada modelo (belongsTo, hasMany, etc.)
+- [x] Usar fillable, casts, etc.
+
+## Passo 4: Autenticação
+- [x] Configurar Laravel Auth: php artisan make:auth (ou Breeze/Telescope)
+- [x] Modificar User model para roles
+- [x] Criar middleware para roles (RoleMiddleware)
+- [x] Atualizar login para usar Laravel Auth
+
+## Passo 5: Controladores
+- [x] Criar SchoolController: index, store, destroy
+- [x] Criar ProfessorController: index, store, destroy
+- [x] Criar TurmaController: index, store, destroy
+- [x] Criar AlunoController: index, store, destroy
+- [x] Criar LaudoController: index, store, destroy
+- [x] Migrar lógica de salvar_*.php e remover_*.php para métodos store/destroy
+
+## Passo 6: Views Blade
+- [x] Converter index.php para login.blade.php
+- [x] Converter dashboard.php para dashboard.blade.php com tabs
+- [x] Criar partials para forms e tables
+- [x] Usar @extends, @section, etc.
+
+## Passo 7: Rotas
+- [x] Definir rotas em web.php: auth routes, resource routes para controllers
+- [x] Proteger rotas com middleware auth e role
+
+## Passo 8: Assets
+- [x] Mover CSS/JS de static/ para resources/ e public/
+- [x] Compilar assets se necessário
+
+## Passo 9: AJAX e Outros
+- [x] Migrar ajax/ endpoints para API routes ou controller methods
+- [x] Atualizar JavaScript para usar Laravel routes
+
+## Passo 10: Testes e Deploy
+- [x] Testar login, CRUD operations
+- [x] Seed database com usuário root
+- [x] Atualizar README para Laravel
+- [x] Remover arquivos PHP antigos ou manter como backup
+
+# TODO List for Sistema de Login Web
 - [x] Create Root user in database via Python shell
 - [x] Add @root_required decorator in app.py
 - [x] Add reset_password route in app.py
